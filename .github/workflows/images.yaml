@@ -33,6 +33,8 @@ jobs:
         - uBootRadxaCM3IO
         - uBootRadxaRock4
         - uBootRadxaRock4SE
+        - uBootRadxaRock3C
+        - uBootRadxaZero3
     runs-on: ubuntu-24.04
     steps:
     - name: Free disk space
@@ -135,6 +137,8 @@ jobs:
         - RadxaCM3IO
         - RadxaRock4
         - RadxaRock4SE
+        - RadxaRock3C
+        - RadxaZero3
     runs-on: ubuntu-24.04
     steps:
     - name: Free disk space

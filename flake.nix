@@ -116,6 +116,16 @@
           kernel = (kernel system).linux_6_12_rockchip;
           extraModules = [ noZFS ];
         };
+        "RadxaRock3C" = {
+          uBoot = (uBoot system).uBootRadxaRock3C;
+          kernel = (kernel system).linux_6_12_rockchip;
+          extraModules = [ noZFS ];
+        };
+        "RadxaZero3" = {
+          uBoot = (uBoot system).uBootRadxaZero3;
+          kernel = (kernel system).linux_6_12_rockchip;
+          extraModules = [ noZFS ];
+        };
       };
 
       osConfigs = system:
@@ -172,6 +182,8 @@
         uBootRadxaCM3IO = (uBoot system).uBootRadxaCM3IO;
         uBootRadxaRock4 = (uBoot system).uBootRadxaRock4;
         uBootRadxaRock4SE = (uBoot system).uBootRadxaRock4SE;
+        uBootRadxaRock3C = (uBoot system).uBootRadxaRock3C;
+        uBootRadxaZero3 = (uBoot system).uBootRadxaZero3;
 
         bes2600 = (bes2600Firmware system);
       };
